@@ -16,3 +16,5 @@ services:
     env_file: .env # 環境変数の定義に.envを利用
     ports:
       - "3306:3306" #ポート番号の設定
+    volumes: 
+      - ./db/data:/var/lib/mysql
