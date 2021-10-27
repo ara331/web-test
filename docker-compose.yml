@@ -17,4 +17,4 @@ services:
     ports:
       - "3306:3306" #ポート番号の設定
     volumes: 
-      - ./db/data:/var/lib/mysql
+      - ./db:/var/lib/mysql
